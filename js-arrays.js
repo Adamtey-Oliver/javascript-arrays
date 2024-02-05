@@ -114,4 +114,23 @@ let isGreaterThan5 = numsome.some((n) => n > 5);
 
 console.log(isGreaterThan5)
 
+//.every() method
 
+let numevery = [1, 20, 3, 1, 4, 5, 16];
+
+let allGreaterThan0 = numevery.every((n) => n > 0);
+
+console.log(allGreaterThan0);
+
+
+// find array method
+
+let stock = [
+    {itme: 'ketcup', quantity: 23},
+    {itme: 'mayo', quantity: 90},
+    {itme: 'hot sauce', quantity: 13},
+];
+
+let mayo = stock.find((s) => s.item === 'mayo');
+
+console.log(mayo)
