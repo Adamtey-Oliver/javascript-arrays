@@ -13,3 +13,11 @@ joins[4] = 'Junior'
 
 let joinNames = joins.join(' and ');
 console.log(joinNames);
+
+//Concat
+let concats = ['Godwin', 'Oliver', 'Sarah', 'Molly'];
+let concats2 = ['AmaliTech', 'Davido'];
+let concats3 = ['Get It', 'Go For It'];
+
+let concatNames = joins.concat(concats2, concats3);
+console.log(concatNames);
