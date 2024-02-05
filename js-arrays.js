@@ -95,10 +95,14 @@ console.log(juniorPosts);
 
 // Reduce
 
-let num = [1, 2, 3, 4, 5, 6];
+let num = [1, 2, 3, 4, 5, 16];
 
 let total = num.reduce((total, currentVal) => total + currentVal);
 
 console.log(total);
+
+// another way
+let totals = num.reduce((a, b) => Math.max(a, b), -Infinity);
+console.log(totals);
 
 
