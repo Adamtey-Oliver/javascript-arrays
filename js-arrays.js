@@ -67,3 +67,16 @@ console.log(flat);
 
 // Higher Order Functions
 
+let highernames = ['Charity', 'Mary', 'Oliver', 'Naa', 'Confort', 'Oliver'];
+
+highernames.forEach(n => {
+    console.log(n);
+})
+
+
+// Map
+
+let numbers = [2, 3, 4, 5, 3];
+
+let doubled = numbers.map((n) => n * 2);
+console.log(doubled);
