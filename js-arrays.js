@@ -37,3 +37,11 @@ console.log(namesplicesCopy)
 namesplices.splice(1, 3, 'Bill', 'Bob Marley')
 console.log(namesplices);
 
+
+//Slice 
+
+let sliceNames = ['Charity', 'Mary', 'Naa', 'Confort']
+
+let slice = sliceNames.slice(1, 2)
+
+console.log(slice);
