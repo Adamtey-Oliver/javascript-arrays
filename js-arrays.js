@@ -45,3 +45,11 @@ let sliceNames = ['Charity', 'Mary', 'Naa', 'Confort']
 let slice = sliceNames.slice(1, 2)
 
 console.log(slice);
+
+
+//Indexof
+
+let namesindex = ['Charity', 'Mary', 'Oliver', 'Naa', 'Confort', 'Oliver'];
+
+let index = namesindex.lastIndexOf('Oliver');
+console.log(index);
