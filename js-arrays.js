@@ -106,3 +106,12 @@ let max = num.reduce((a, b) => Math.max(a, b), -Infinity);
 console.log(max);
 
 
+//.some() method
+
+let numsome = [1, 2, 3, 4, 5, 16];
+
+let isGreaterThan5 = numsome.some((n) => n > 5);
+
+console.log(isGreaterThan5)
+
+
