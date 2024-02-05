@@ -58,8 +58,10 @@ console.log(index);
 
 //Flat Array Methods
 
-let nums = [1,2,3,4,5, [5, 6], 8];
+let nums = [1,2,3,4,5, [5, 6, [7, 8]], 9, 10];
 
-let flat = nums.flat();
+let flat = nums.flat(2);
 
 console.log(flat);
+
+
