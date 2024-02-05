@@ -53,3 +53,13 @@ let namesindex = ['Charity', 'Mary', 'Oliver', 'Naa', 'Confort', 'Oliver'];
 
 let index = namesindex.lastIndexOf('Oliver');
 console.log(index);
+
+
+
+//Flat Array Methods
+
+let nums = [1,2,3,4,5, [5, 6], 8];
+
+let flat = nums.flat();
+
+console.log(flat);
