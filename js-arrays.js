@@ -80,3 +80,15 @@ let numbers = [2, 3, 4, 5, 3];
 
 let doubled = numbers.map((n) => n * 2);
 console.log(doubled);
+
+
+// Filter
+
+let blogPost = [
+    {title: 'post 1', author: 'Junior'},
+    {title: 'post 2', author: 'Junior'},
+    {title: 'post 3', author: 'Oliver'},
+];
+
+let juniorPosts = blogPost.filter(p => p.author == 'Junior');
+console.log(juniorPosts);
