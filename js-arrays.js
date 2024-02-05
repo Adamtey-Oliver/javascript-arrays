@@ -102,7 +102,7 @@ let total = num.reduce((total, currentVal) => total + currentVal);
 console.log(total);
 
 // another way
-let totals = num.reduce((a, b) => Math.max(a, b), -Infinity);
-console.log(totals);
+let max = num.reduce((a, b) => Math.max(a, b), -Infinity);
+console.log(max);
 
 
