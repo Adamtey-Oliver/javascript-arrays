@@ -21,3 +21,19 @@ let concats3 = ['Get It', 'Go For It'];
 
 let concatNames = joins.concat(concats2, concats3);
 console.log(concatNames);
+
+
+//Splice
+let namesplices = ['Godwin', 'Oliver', 'Charles', 'Sarah', 'Molly'];
+
+let namesplicesCopy = [...namesplices]
+
+namesplicesCopy.splice(1, 1)
+console.log(namesplices);
+console.log(namesplicesCopy)
+
+//Or delete and add using Splice
+
+namesplices.splice(1, 3, 'Bill', 'Bob Marley')
+console.log(namesplices);
+
