@@ -1,5 +1,4 @@
 
-
 //String
 let names = ['Godwin', 'Oliver', 'Sarah', 'Molly'];
 names[2] = 'Junior'
@@ -92,3 +91,12 @@ let blogPost = [
 
 let juniorPosts = blogPost.filter(p => p.author == 'Junior');
 console.log(juniorPosts);
+
+
+// Reduce
+
+let num = [1, 2, 3, 4, 5, 6];
+
+let total = num.reduce((total, currentVal) => total + currentVal);
+
+console.log(total);
