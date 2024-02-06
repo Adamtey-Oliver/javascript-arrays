@@ -126,11 +126,11 @@ console.log(allGreaterThan0);
 // find array method
 
 let stock = [
-    {itme: 'ketcup', quantity: 23},
-    {itme: 'mayo', quantity: 90},
-    {itme: 'hot sauce', quantity: 13},
+    {item: 'ketcup', quantity: 23},
+    {item: 'mayo', quantity: 90},
+    {item: 'hot sauce', quantity: 13},
 ];
 
-let mayo = stock.find((s) => s.item === 'mayo');
+let mayo = stock.findIndex((s) => s.item === 'mayo');
 
 console.log(mayo)
