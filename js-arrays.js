@@ -133,4 +133,20 @@ let stock = [
 
 let mayo = stock.findIndex((s) => s.item === 'mayo');
 
-console.log(mayo)
+console.log(mayo) 
+
+
+//sorts method
+
+let namesort = ['Charity', 'Mary', 'Ariana', 'Naa', 'Judith', 'Oliver'];
+
+let alph = namesort.sort();
+console.log(alph)
+
+//and numbers
+
+let numever = [1, 20, 3, 14, 4, 5, 16];
+
+let sorted = numever.sort();
+
+console.log(sorted);
